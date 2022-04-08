@@ -9,7 +9,7 @@ In each matrix each row corresponds to one signal channel:
 •	ABP signal, FS=125Hz; invasive arterial blood pressure (mmHg)
 •	ECG signal, FS=125Hz; electrocardiogram from channel II.
 
-For this project, 8 out of 12 mat files were used. 75% of the dataset was used as training set of which 0.1% was used as validation set. Remaining 25% was used as test set.
+For this project, 8 out of 12 mat files were used. 70% of the dataset was used as training set of which 0.1% was used as validation set. Remaining 30% was used as test set.
 
 ## Data Pre-processing
 Feature Extraction (PPG, ABP and ECG) and Feature Scaling (Normalization) was carried out.
@@ -18,4 +18,4 @@ Feature Extraction (PPG, ABP and ECG) and Feature Scaling (Normalization) was ca
 BP Prediction from PPG Signal was implemented using Linear Regression model, LSTM Model and Artificial Neural Network Model (ANN) with and without Normalization.
 
 ## Evaluation and Result
-RMSE, MAE and MAPE was used as evaluation paremeters for the models implemented. ANN outperformed the other two models in terms of the evaluation parameters.
+RMSE, MAE and MAPE with standard deviation was used as evaluation paremeters for the models implemented. ANN outperformed the other two models in terms of the evaluation parameters.
